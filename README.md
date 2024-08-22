@@ -59,3 +59,14 @@ if (privateKey != null)
 }
 else
     Console.WriteLine("The private key was not found or is inaccessible.");
+```
+After running the application, you will find the following files in the specified directory:
+
+certificate.crt - The extracted certificate in PEM format.
+private.key - The extracted private key in PEM format.
+
+## Contributing
+Contributions are welcome! If you have any improvements or suggestions, please fork this repository and submit a pull request. Please make sure your changes are well-documented and tested.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
